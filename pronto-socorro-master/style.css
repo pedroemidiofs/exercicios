@@ -1,0 +1,141 @@
+/* Tags */
+
+body{
+    background-color: #B4EEB4;
+}
+h1{
+    color: #006400;
+    text-shadow: 1px 1px 1px white;
+    font-size: 40px;
+}
+h2{
+    color: #006400;
+    text-shadow: 1px 1px 1px green;
+    background-color: #B4EEB4;
+    max-width: 400px;
+    padding-left: 15px;
+    font-size: 25px;
+}
+h3{
+    color: #006400;
+    text-shadow: 1px 1px 1px green;
+    padding-left: 5px;
+}
+p{
+    font-family: monospace;
+    font-size: 17px;
+    font-weight:bold;
+    color: #00913e;
+    padding: 0 10px;
+}
+
+@media screen and (max-width: 1080px){
+    p{
+        font-size: 20px;
+    }
+}
+
+/* IDs */
+
+#fotop{
+    background-image: url(imagens/cpu3.jpg);
+    background-size: 100%;
+    min-height: 100px;
+    margin-top: 10px;
+    padding-top: 20px;
+    border-radius: 10px 10px 0 0 ;
+    border-color: #00913e;
+    border-style: solid;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .5)
+}
+#desc1{
+    width: 100%;
+    color: white;
+    padding: 0 10px;
+    border-color: #00913e;
+    border-style: solid;
+    border-radius: 0 0 10px 10px;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .5)
+}
+#rodape{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    float: left;
+    margin-top: 15px;
+    padding-top: 0px;
+    border: solid #00913e;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .5)
+}
+
+/* Class */
+
+.menu{
+    /* width: 95%; */
+    margin:0 0 10px 0;
+}
+.botao{
+    text-align: center;
+    background-color: #00913e;
+    font-size: 20px;
+    font-family: monospace;
+    border-radius: 0 0 5px 5px;
+    height: 35px;
+    padding-top: 2px;
+}
+.botao a{
+    color: white;
+    text-decoration: none;
+}
+.botao:hover{
+    background-color: #9cceb3;
+    color: black;
+    -webkit-transition: 0.5s;
+}
+.botao a:hover{
+    color: black;
+    background-color: #9cceb3;
+    -webkit-transition: 0.5s;
+}
+.dnot{
+    border: solid #00913e;
+    border-radius: 0 0 10px 10px;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .5)
+}
+.imagem{
+    background-size: 100%;
+    padding-top: 20%;
+    margin-top: 20px;
+    min-height: 100px;
+    min-width: 200px;
+    border-radius: 10px 10px 0 0;
+    border-color: #00913e;
+    border-style: solid;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .5)
+}
+.gif{
+    background-size: 100%;
+    margin-top: 20px;
+    min-height: 100px;
+    min-width: 200px;
+    border-radius: 10px 10px 0 0;
+    border-color: #00913e;
+    border-style: solid;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .5)
+}
+.not1{
+    background-image: url(imagens/sujo.jpg);
+ }
+.not2{
+    background-image: url(imagens/medico.png);
+}
+.not3{
+    background-image: url(imagens/iot.jpg);
+}
+.not4{
+    background-image: url(imagens/aplicativo.jpg);
+}
